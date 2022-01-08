@@ -2,7 +2,7 @@
 
 This backplane is initially intended to be used with Sergey Kiselev's Micro8088 or xi8088 PC clones, among others system powered by x86 architecture. However, other old systems could also be developed using FPGAs built or adapted to ISA or PC / 104 type slots, plus other accessories based on these.
 
-More information of this project in my Hackaday account: https://hackaday.io/project/175340-universal-itx-backplane
+More information of this project in spark2k06's Hackaday account: https://hackaday.io/project/175340-universal-itx-backplane
 
 ![alt text](Universal-ITX-Backplane.png "Jumpers")
 
