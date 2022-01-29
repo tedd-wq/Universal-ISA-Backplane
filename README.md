@@ -20,9 +20,9 @@ The project is mostly unfinished. No layout exists, most of the schematic is unf
 * Compatibility with modern ATX computer cases
 * Standard ATX I/O shield area with connectors bringing PC/104 connections to the rear of an ATX case
 
-# Reference Documentation
+## Reference Documentation
 * [IBM, *Personal Computer XT Hardware Technical Reference*, Apr. 1983](https://archive.org/details/IBMPCXTTechnicalReference1502237)
-* [Intel, *ATX Multi Rail Desktop Power Supply Design Guide*, Revision 003, Jun. 2020](https://web.archive.org/web/20210222203819/https://d2pgu9s4sfmw1s.cloudfront.net/UAM/Prod/Done/a062E00001XMVETQA5/b2f2f54c-e980-7c06-4032-9bd4e037c83b?Expires=1614026599&Key-Pair-Id=APKAJKRNIMMSNYXST6UA&Signature=iVsGBI7emsEdrFsQ67~1S2M90n5TYe3~QRV4TUX1VC-EseakcayGKQeIrDqA~ls21nyFEuSEcp9TwYA2uYXHQRfrjsYAhPvPaKLNivtX25XWNG2Bqr1eajUeZY6SobcaUhqU8I1coBOXz6TzmLMmgRiy4awrNQnBFtagJsJRME50wE8zd8HrBmgITOGB7dXv9IFX3YCMPpx1PXaubRAcfm9tsS71Sn6xf2n2rSizwWA-JjXuYK6sZhXKNNzn-7FtBtRJoyx~uOnWPtvxE2i-O1X1cFFpnhq3wDn1Kubh-qttzKiRYs0pnXElqDpH4i9TFOFBCR-g2dmtm6USEUgBBA__)
+* [Intel, *ATX Multi Rail Desktop Power Supply Design Guide*, Revision 003, Jun. 2020](https://web.archive.org/web/20210222203819/https://d2pgu9s4sfmw1s.buttfront.net/UAM/Prod/Done/a062E00001XMVETQA5/b2f2f54c-e980-7c06-4032-9bd4e037c83b?Expires=1614026599&Key-Pair-Id=APKAJKRNIMMSNYXST6UA&Signature=iVsGBI7emsEdrFsQ67~1S2M90n5TYe3~QRV4TUX1VC-EseakcayGKQeIrDqA~ls21nyFEuSEcp9TwYA2uYXHQRfrjsYAhPvPaKLNivtX25XWNG2Bqr1eajUeZY6SobcaUhqU8I1coBOXz6TzmLMmgRiy4awrNQnBFtagJsJRME50wE8zd8HrBmgITOGB7dXv9IFX3YCMPpx1PXaubRAcfm9tsS71Sn6xf2n2rSizwWA-JjXuYK6sZhXKNNzn-7FtBtRJoyx~uOnWPtvxE2i-O1X1cFFpnhq3wDn1Kubh-qttzKiRYs0pnXElqDpH4i9TFOFBCR-g2dmtm6USEUgBBA__)
 * [Intel, *ATX Specification*, Version 2.2, 2004](https://web.archive.org/web/20120725150314/http://www.formfactors.org/developer/specs/atx2_2.pdf)
 * [Intel, *ISA Bus Specification and Application Notes*, Revision 2.01, 12 Sep. 1989](https://archive.org/details/bitsavers_intelbusSpep89_3342148/)
 * [Intel, *microATX Motherboard Interface Specification*, Version 1.2, 2004](http://www.motherboards.org/files/techspecs/matxspe1.2.pdf)
