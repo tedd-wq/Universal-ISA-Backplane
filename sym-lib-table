@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name "Universal-ITX-Backplane-rescue")(type "KiCad")(uri "${KIPRJMOD}/Universal-ITX-Backplane-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "Universal-ISA-Backplane-symbols")(type "KiCad")(uri "${KIPRJMOD}/Universal-ISA-Backplane-symbols.kicad_sym")(options "")(descr ""))
 )

@@ -1,2 +1,6 @@
-Universal-ITX-Backplane-backups
+Universal-ISA-Backplane-backups
 *.kicad_prl
+Output
+fp-info-cache
+Old Universal-ITX-Backplane.kicad_sch
+fp-info-cache
