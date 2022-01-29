@@ -1,30 +1,20 @@
-# Universal ITX BackPlane
+# Universal ISA Backplane
 
-This backplane is initially intended to be used with Sergey Kiselev's Micro8088 or xi8088 PC clones, among others system powered by x86 architecture. However, other old systems could also be developed using FPGAs built or adapted to ISA or PC / 104 type slots, plus other accessories based on these.
+![alt text](Universal-ISA-Backplane.png "Initial layout plan")
+*Initial layout plan*
 
-More information of this project in spark2k06's Hackaday account: https://hackaday.io/project/175340-universal-itx-backplane
+This backplane is initially intended to be used with with a [PC/104 compute board][https://en.wikipedia.org/wiki/PC/104] for legacy ISA card applications. It aims to implement the complete 16-bit ISA bus specification in a microATX form factor. In future, the PCI bus could also be implemented, allowing use of PC/104+ (ISA and PCI), or PCI/104 (PCI only) compute boards.
 
-![alt text](Universal-ITX-Backplane.png "Jumpers")
+This project was based on [spark2k06's Universal ITX Backplane][https://github.com/spark2k06/Universal-ITX-Backplane], but is heavily modified to focus on PC/104 support and in a microATX form factor. More information visit spark2k06's project on their Hackaday page: https://hackaday.io/project/175340-universal-itx-backplane.
 
-The PCB has several I / O connectors common to all projects:
+The project is mostly unfinished. No layout exists, most of the schematic is unfinished.
 
-* VGA + MonochromeVGA integrated
-* 2 x DB9 ports to be used as serial ports or as joysticks
+## Specifications
 
-Additionally, each project can also add a Hat I / O board by adding other specific connectors. For example, an old PC based on a PC / 104 slot could add PS / 2 ports, IDE44 2.0mm connector to connect an external HD or CF, etc ... it must be taken into account that internally the Hat I / O board does not have of a lot of space, several holes have been placed to fasten it to the backplane.
-
-Notice: The project is still in the prototype phase, the first version has not yet been tested.
-
-# Version 1.0
-
-First version of project
-
-Coworked with @MonotechPCs (Twitter profile)
-
-* 4 Layer Mini-ITX board
-* 3 x ISA 8 / 16 bits slots
-* 1 x PC104 8 / 16 bits slot
-* 3 x ISA 8 bits slots
-* I/O shield with MonochromeVGA integrated, VGA, and 2 x DB9 connectors
-
-
+* 4-Layer microATX board
+* 2x ISA 8-/16-bit slots (1 shared with PCI slot)
+* 3x 32-bit PCI slots (1 shared with ISA slot)
+* 1x PC/104, PC/104+, PCI-104 connection
+* Compatibility with modern ATX power supplies
+* Compatibility with modern ATX computer cases
+* Standard ATX I/O shield area with connectors bringing PC/104 connections to the rear of an ATX case
