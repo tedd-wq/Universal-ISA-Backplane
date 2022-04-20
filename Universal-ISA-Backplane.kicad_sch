@@ -1252,6 +1252,9 @@
     (path "/928ad3cc-18e3-4955-b78e-7e76b5aceb2f/067b1e88-7efb-4257-b6cf-d4848d752560"
       (reference "#PWR02") (unit 1) (value "GND") (footprint "")
     )
+    (path "/928ad3cc-18e3-4955-b78e-7e76b5aceb2f/253b175f-91d4-4211-a73b-d7e50d5c41e3"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+    )
     (path "/928ad3cc-18e3-4955-b78e-7e76b5aceb2f/1b388cd9-64f1-46aa-9fd6-3a70b0a97ea6"
       (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
@@ -1324,20 +1327,23 @@
     (path "/928ad3cc-18e3-4955-b78e-7e76b5aceb2f/97f0a462-5e73-4a27-807d-1752fc46dff8"
       (reference "ITEM1") (unit 1) (value "Heatsink_Pad") (footprint "Heatsink:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm")
     )
-    (path "/21636f0f-001d-4a8d-9fb9-b2496d20afed/00000000-0000-0000-0000-00005f2107ff"
-      (reference "J201") (unit 1) (value "PC104") (footprint "Universal-ISA-Backplane:PC104_Platform")
-    )
-    (path "/21636f0f-001d-4a8d-9fb9-b2496d20afed/00000000-0000-0000-0000-00005f21075f"
-      (reference "J202") (unit 1) (value "PC104_16") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical")
-    )
     (path "/f9d9fe73-0a6e-4cdd-a09a-168af37594a9/f8be6ef1-f6de-4e65-ae75-0cb7295dee89"
       (reference "J301") (unit 1) (value "Bus_ISA_16bit") (footprint "")
     )
     (path "/928ad3cc-18e3-4955-b78e-7e76b5aceb2f/00000000-0000-0000-0000-00004ef82b87"
-      (reference "P101") (unit 1) (value "ATX 20-Pin Power") (footprint "Universal-ISA-Backplane:Molex_Mini-Fit_Jr_5569-20A2_2x10_P4.20mm_Horizontal")
+      (reference "P101") (unit 1) (value "ATX 20-Pin Power") (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5566-20A_2x10_P4.20mm_Vertical")
     )
     (path "/928ad3cc-18e3-4955-b78e-7e76b5aceb2f/bda69a48-ce26-4c5e-a3b7-e249fd4dfc84"
-      (reference "P102") (unit 1) (value "FRNT_PNL") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal")
+      (reference "P102") (unit 1) (value "F_PANEL") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical")
+    )
+    (path "/928ad3cc-18e3-4955-b78e-7e76b5aceb2f/ec7a112c-d8a2-4522-93f7-d4c66da25316"
+      (reference "P103") (unit 1) (value "HW_SW_PWR") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/21636f0f-001d-4a8d-9fb9-b2496d20afed/00000000-0000-0000-0000-00005f2107ff"
+      (reference "P201") (unit 1) (value "PC104") (footprint "Universal-ISA-Backplane:PC104_Platform")
+    )
+    (path "/21636f0f-001d-4a8d-9fb9-b2496d20afed/00000000-0000-0000-0000-00005f21075f"
+      (reference "P201") (unit 2) (value "PC104") (footprint "Universal-ISA-Backplane:PC104_Platform")
     )
     (path "/928ad3cc-18e3-4955-b78e-7e76b5aceb2f/00000000-0000-0000-0000-000065129499"
       (reference "Q101") (unit 1) (value "BC547") (footprint "Package_TO_SOT_THT:TO-92_Inline")
