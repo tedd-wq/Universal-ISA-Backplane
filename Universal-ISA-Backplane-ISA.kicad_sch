@@ -1354,7 +1354,7 @@
     (uuid f8be6ef1-f6de-4e65-ae75-0cb7295dee89)
     (property "Reference" "J301" (id 0) (at 142.24 27.94 0))
     (property "Value" "Bus_ISA_16bit" (id 1) (at 142.24 30.48 0))
-    (property "Footprint" "" (id 2) (at 142.24 97.79 0)
+    (property "Footprint" "Universal-ISA-Backplane:ISA16" (id 2) (at 142.24 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://en.wikipedia.org/wiki/Industry_Standard_Architecture" (id 3) (at 142.24 170.18 0)
