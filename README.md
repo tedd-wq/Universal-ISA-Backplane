@@ -2,7 +2,7 @@
 
 ![Initial layout plan](Universal-ISA-Backplane-Light.png#gh-light-mode-only)
 ![Initial layout plan](Universal-ISA-Backplane-Dark.png#gh-dark-mode-only)
-*Initial layout plan*
+*Initial layout plan. Bracketed area in the top right is where normal PC I/O goes.*
 
 This backplane is initially intended to be used with with a [PC/104 compute board](https://en.wikipedia.org/wiki/PC/104) for legacy ISA card applications. It aims to implement the complete 16-bit ISA bus specification in a microATX form factor. In future, the PCI bus could also be implemented, allowing use of PC/104-Plus (ISA and PCI), or PCI/104 (PCI only) compute boards.
 
